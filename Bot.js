@@ -8,17 +8,17 @@ client.on('message', message => {
           };
            });
 client.on('message', message => {
-     if (message.content=="да"){
+     if (message.content === "да"){
     message.reply("нет");
      };
      });
  client.on('message', message => {
-     if (message.content === 'ping') {
-    	message.reply('pong');
+     if (message.content === 'я не тупая') {
+    	message.reply('нет ты тупая');
    	};
 });
  client.on('message', message => {
-     if(message.content == "sh!repeat"){
+     if(message.content === "#Иринагей"){
       setInterval(function() {
           let answers = ["иринагей", "ирина тупая", "ирина сосет", "ирина фрик"]; 
           let rand = Math.floor(Math.random()*answers.length); 
