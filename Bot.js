@@ -8,7 +8,7 @@ client.on('message', message => {
           };
            });
 client.on('message', message => {
-     if (message.content === "да"||"Да"||"Дыа"{
+     if (message.content === ('да'||'Да'||'Дыа'){
     message.reply("нет");
      };
      });
