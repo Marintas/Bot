@@ -33,9 +33,6 @@ client.on('message', message => {
     if (message.content === 'дыа'){
           message.reply('нет');
                     };
-    if (message.content === 'нет'){
-            message.reply('да');
-                   };
     if (message.content === 'Нет'){
           message.reply('да');
                };
