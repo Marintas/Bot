@@ -26,7 +26,7 @@ client.on('message', message => {
            }, 10000) ;
          };    
      setTimeout(function() {
-        clearInterval(any);
+        clearInterval(timerid);
         }, 50000);
     });
 
