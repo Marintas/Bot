@@ -6,12 +6,12 @@ client.on('message', message => {
    if (message.content === 'нет'){
     message.reply('да');
           };
-           });
-client.on('message', message => {
-   if (message.content === 'да'){
+           
+  if (message.content === 'да'){
     message.reply('нет');
           };
-           });
+      });
+
  client.on('message', message => {
      if (message.content === 'я не тупая') {
     	message.reply('нет ты тупая');
