@@ -7,11 +7,11 @@ client.on('message', message => {
     message.reply('да');
           };
            
-  if (message.content === 'да'){
-    message.reply('нет');
+   if (message.content === 'да'){
+          message.reply('нет');
           };
    
-    if(message.content === "#Иринагей"){
+   if(message.content === "#Иринагей"){
       setInterval(function() {
           let answers = ["иринагей", "ирина тупая", "ирина сосет", "ирина фрик"]; 
           let rand = Math.floor(Math.random()*answers.length); 
@@ -22,8 +22,8 @@ client.on('message', message => {
         clearInterval(timerid);
         }, 50000);
               
-if (message.content === 'я не тупая') {
-    	message.reply('нет ты тупая');
+    if (message.content === 'я не тупая') {
+    	     message.reply('нет ты тупая');
    	              };
 });
 
