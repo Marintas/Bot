@@ -7,7 +7,7 @@ client.on('message', message => {
     message.reply('да');
           };
            
-   if (message.content === 'да'){
+   if (message.content === 'да'||'Да'){
           message.reply('нет');
           };
    
