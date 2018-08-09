@@ -17,7 +17,7 @@ client.on('message', message => {
         message.channel.send(answers[rand]);
            }, 10000); 
         setTimeout(function() {
-        clearInterval(timerid);
+        clearInterval(any);
         }, 50000);
                     };                  
     if (message.content === 'я не тупая') {
