@@ -3,13 +3,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('message', message => {
-   if (message.content === "нет"){
-    message.reply("да");
+   if (message.content === 'нет'){
+    message.reply('да');
           };
            });
 client.on('message', message => {
-     if (message.content === "да" {
-    message.reply("нет");
+     if (message.content === 'да' {
+    message.reply('нет');
      };
      });
  client.on('message', message => {
