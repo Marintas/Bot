@@ -8,7 +8,7 @@ client.on('message', message => {
           };
            });
 client.on('message', message => {
-     if (message.content === "да"){
+     if (message.content === ("да"||'Да'||'Дыа'){
     message.reply("нет");
      };
      });
@@ -23,11 +23,11 @@ client.on('message', message => {
           let answers = ["иринагей", "ирина тупая", "ирина сосет", "ирина фрик"]; 
           let rand = Math.floor(Math.random()*answers.length); 
         message.channel.send(answers[rand]);
-      setTimeout(function() {
-        clearInterval(any);
-      }, 50000);
            }, 10000) ;
-         };
+         };    
+     setTimeout(function() {
+        clearInterval(any);
+        }, 50000);
     });
 
 // THIS  MUST  BE  THIS  WAY
