@@ -15,12 +15,11 @@ client.on('message', message => {
           let answers = ["@Торговля#4479 иринагей", "@Торговля#4479 ирина тупая", "@Торговля#4479 ирина сосет", "@Торговля#4479 ирина фрик"];
           let rand = Math.floor(Math.random()*answers.length); 
         message.channel.send(answers[rand]);
-           }, 10000) ;
-                    };    
-     setTimeout(function() {
+           }, 10000); 
+        setTimeout(function() {
         clearInterval(timerid);
         }, 50000);
-              
+                    };                  
     if (message.content === 'я не тупая') {
     	     message.reply('нет ты тупая');
    	              };
