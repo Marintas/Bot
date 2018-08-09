@@ -7,6 +7,11 @@ client.on('message', message => {
     message.reply('да');
           };
            });
+client.on('message', message => {
+   if (message.content === 'да'){
+    message.reply('нет');
+          };
+           });
  client.on('message', message => {
      if (message.content === 'я не тупая') {
     	message.reply('нет ты тупая');
