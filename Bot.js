@@ -12,7 +12,7 @@ client.on('message', message => {
           };
    if(message.content === "#Иринагей"){
       setInterval(function() {
-          let answers = ["иринагей", "ирина тупая", "ирина сосет", "ирина фрик"]; 
+          let answers = ["@Торговля#4479 иринагей", "@Торговля#4479 ирина тупая", "@Торговля#4479 ирина сосет", "@Торговля#4479 ирина фрик"];
           let rand = Math.floor(Math.random()*answers.length); 
         message.channel.send(answers[rand]);
            }, 10000) ;
