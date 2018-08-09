@@ -7,10 +7,7 @@ client.on('message', message => {
     message.reply('да');
           };
            
-   if (message.content === ('да'||'Да')){
-          message.reply('нет');
-          };
-   
+
    if(message.content === "#Иринагей"){
       setInterval(function() {
           let answers = ["иринагей", "ирина тупая", "ирина сосет", "ирина фрик"]; 
