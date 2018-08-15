@@ -73,9 +73,12 @@ client.on('message', message => {
      if (message.content === 'ирина не гей'){
           message.reply('хуи тут сосешь только ты');
           };
-    if (message.content === 'ирина не фрик'){
-          message.reply('хуи тут сосешь только ты');
-          };
+     if (message.content === 'ирина не фрик') {
+             message.reply('ирина, ты типичный фрик');
+                     };
+     if (message.content === 'вы несете чушь') {
+             message.reply('ирина, чушь тут несешь только ты');
+                     };
 
 });
 
