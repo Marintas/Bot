@@ -10,12 +10,12 @@ client.on('message', message => {
   if (message.content === 'да'){
     message.reply('нет');
           };
-   if(message.content === "#Иринагей"){
+   if(message.content === "STOP"){
       setInterval(function() {
-          let answers = ["@Торговля#4479 иринагей", "@Торговля#4479 ирина тупая", "@Торговля#4479 ирина сосет", "@Торговля#4479 ирина фрик"];
+          let answers = ["Stop stop stop stop stop","STOP STOP STOP STOP STOP"];
           let rand = Math.floor(Math.random()*answers.length); 
         message.channel.send(answers[rand]);
-           }, 20000); 
+           }, 1000); 
 
                     };                  
     if (message.content === 'я не тупая') {
