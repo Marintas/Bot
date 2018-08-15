@@ -69,6 +69,11 @@ client.on('message', message => {
      if (message.content === 'Ты хуесос'){
           message.reply('хуи тут сосешь только ты');
           };
+        
+     if (message.content === 'ирина не гей'){
+          message.reply('хуи тут сосешь только ты');
+          };
+   ирина не гей
 });
 
 
