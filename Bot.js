@@ -79,6 +79,9 @@ client.on('message', message => {
      if (message.content === 'вы несете чушь') {
              message.reply('ирина, чушь тут несешь только ты');
                      };
+     if (message.content === 'м') {
+             message.reply('не мычи, корова');
+                     };
 
 });
 
